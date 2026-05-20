@@ -1,0 +1,4 @@
+# Stakpak session files
+.stakpak/session*
+.stakpak
+refs

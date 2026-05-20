@@ -1,0 +1,17 @@
+{
+  "include": ["."],
+  "exclude": [".venv", ".stakpak"],
+  "pythonVersion": "3.12",
+  "typeCheckingMode": "standard",
+  "reportArgumentType": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportMissingParameterType": "none",
+  "reportMissingTypeArgument": "none",
+  "reportPrivateImportUsage": "none",
+  "reportUnknownArgumentType": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnusedFunction": "none",
+  "reportImplicitStringConcatenation": "none",
+  "reportConstantRedefinition": "none"
+}

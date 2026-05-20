@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 2066" font-family="'Libre Franklin', 'Helvetica Neue', Arial, sans-serif">
+
+  <rect width="1000" height="2066" fill="#fafafa"/>
+
+
+  <!-- header -->
+  <text x="500" y="112" font-size="14" letter-spacing="2.5" fill="#a01f3c" font-weight="800" text-anchor="middle">A FIELD MAP</text>
+  <text x="500" y="170" font-size="48" font-weight="800" fill="#1a1a1a" text-anchor="middle" letter-spacing="-1.5">What is an Agent Harness?</text>
+  <text x="500" y="204" font-size="15.5" fill="#4f4f4f" text-anchor="middle">Mapping how different sources define it: what they include, and where they disagree.</text>
+
+  <!-- ===== RINGS  cx500 cy680  r170/310/440 -> top y240 ===== -->
+  <circle cx="500" cy="706" r="440" fill="#f1f1f1" stroke="#d8d8d8" stroke-width="1.25"/>
+  <circle cx="500" cy="706" r="310" fill="#f6f6f6" stroke="#cfcfcf" stroke-width="1.25"/>
+  <circle cx="500" cy="706" r="170" fill="#ffffff" stroke="#a01f3c" stroke-width="1.75"/>
+
+  <!-- pixel invader, faint, centered in core as backdrop -->
+  <g transform="translate(440,646) scale(2)" fill="#a01f3c" opacity="0.10">
+    <rect x="18" y="0" width="12" height="12"/><rect x="30" y="0" width="12" height="12"/>
+    <rect x="6" y="12" width="12" height="12"/><rect x="42" y="12" width="12" height="12"/>
+    <rect x="0" y="24" width="60" height="12"/>
+    <rect x="0" y="36" width="12" height="12"/><rect x="18" y="36" width="24" height="12"/><rect x="48" y="36" width="12" height="12"/>
+    <rect x="6" y="48" width="12" height="12"/><rect x="42" y="48" width="12" height="12"/>
+  </g>
+
+  <!-- band labels below each top arc -->
+  <text x="500" y="298" font-size="12.5" letter-spacing="3.5" fill="#5f5f5f" text-anchor="middle" font-weight="700">SOME HARNESSES</text>
+  <text x="500" y="428" font-size="12.5" letter-spacing="3.5" fill="#565656" text-anchor="middle" font-weight="700">MOST HARNESSES</text>
+  <text x="500" y="572" font-size="12" letter-spacing="3.5" fill="#a01f3c" text-anchor="middle" font-weight="700">EVERY HARNESS</text>
+
+  <!-- core 5 -->
+  <g fill="#1a1a1a" text-anchor="middle" font-size="16" font-weight="800">
+    <text x="500" y="652">Loop</text>
+    <text x="408" y="708">Tools</text>
+    <text x="592" y="708">Memory</text>
+    <text x="430" y="760">Context</text>
+    <text x="430" y="779">management</text>
+    <text x="570" y="769">Instructions</text>
+  </g>
+  <!-- middle 8  midline r240 -->
+  <g fill="#3a3a3a" text-anchor="middle" font-size="16" font-weight="600">
+    <text x="500" y="471">Sandbox</text>
+    <text x="308" y="567">Reflection</text>
+    <text x="692" y="567">Sub-agents</text>
+    <text x="260" y="711">Permissions</text>
+    <text x="740" y="711">Filesystem</text>
+    <text x="308" y="855">Hooks</text>
+    <text x="692" y="855">Planning</text>
+    <text x="500" y="951">Skills</text>
+  </g>
+  <!-- outer 9  midline r375 -->
+  <g fill="#595959" text-anchor="middle" font-size="14" font-weight="600">
+    <text x="500" y="350">Telemetry</text>
+    <text x="185" y="503">Model choice</text>
+    <text x="815" y="503">Evals</text>
+    <text x="125" y="706">Code-structure</text>
+    <text x="125" y="724">rules</text>
+    <text x="875" y="706">Portable</text>
+    <text x="875" y="724">memory</text>
+    <text x="185" y="919">Error recovery</text>
+    <text x="815" y="919">Self-tuning</text>
+    <text x="500" y="1086">Vision</text>
+  </g>
+
+  <!-- legend  (outer bottom y1120 -> 56px gap) -->
+  <g font-size="14" fill="#4f4f4f">
+    <circle cx="206" cy="1202" r="8" fill="#ffffff" stroke="#a01f3c" stroke-width="1.75"/>
+    <text x="226" y="1207"><tspan font-weight="800" fill="#a01f3c">Every harness</tspan>:  remove one and it stops working as an agent.</text>
+    <circle cx="206" cy="1232" r="8" fill="#f6f6f6" stroke="#7a7a7a" stroke-width="1.5"/>
+    <text x="226" y="1237"><tspan font-weight="800" fill="#3a3a3a">Most harnesses</tspan>:  proven patterns most teams converge on, but not required.</text>
+    <circle cx="206" cy="1262" r="8" fill="#f1f1f1" stroke="#9a9a9a" stroke-width="1.5"/>
+    <text x="226" y="1267"><tspan font-weight="800" fill="#565656">Some harnesses</tspan>:  opinionated or experimental; teams still testing what works.</text>
+  </g>
+
+  <line x1="80" y1="1312" x2="920" y2="1312" stroke="#e4e4e4" stroke-width="1.5"/>
+
+  <!-- ===== POLES ===== -->
+  <text x="500" y="1366" font-size="14" letter-spacing="2.5" fill="#a01f3c" text-anchor="middle" font-weight="800">WHOSE HARNESS IS IT?</text>
+  <text x="468" y="1402" font-size="26" font-weight="800" fill="#1a1a1a" text-anchor="end">Builder Harness</text>
+  <text x="500" y="1402" font-size="20" font-weight="400" fill="#8a8a8a" text-anchor="middle" font-style="italic">vs</text>
+  <text x="532" y="1402" font-size="26" font-weight="800" fill="#1a1a1a" text-anchor="start">User Harness</text>
+  <text x="500" y="1434" font-size="14.5" fill="#4f4f4f" text-anchor="middle">The rings show which parts. But sources disagree on something more basic: whose harness is it?</text>
+
+  <line x1="220" y1="1482" x2="780" y2="1482" stroke="#cfcfcf" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="220" cy="1482" r="12" fill="#a01f3c"/>
+  <circle cx="780" cy="1482" r="12" fill="#1a1a1a"/>
+  <circle cx="220" cy="1482" r="4.5" fill="#fafafa"/>
+  <circle cx="780" cy="1482" r="4.5" fill="#fafafa"/>
+
+  <text x="220" y="1524" font-size="16" letter-spacing="1" fill="#a01f3c" text-anchor="middle" font-weight="800">BUILDER HARNESS</text>
+  <text x="220" y="1551" font-size="13.5" fill="#4f4f4f" text-anchor="middle">The harness is the tool a vendor</text>
+  <text x="220" y="1570" font-size="13.5" fill="#4f4f4f" text-anchor="middle">ships. Claude Code is the harness.</text>
+  <text x="220" y="1603" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="700">Anthropic · OpenAI · LangChain</text>
+  <text x="220" y="1623" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="700">Phil Schmid · Parallel.ai · Stakpak</text>
+
+  <text x="780" y="1524" font-size="16" letter-spacing="1" fill="#1a1a1a" text-anchor="middle" font-weight="800">USER HARNESS</text>
+  <text x="780" y="1551" font-size="13.5" fill="#4f4f4f" text-anchor="middle">The harness is your configuration.</text>
+  <text x="780" y="1570" font-size="13.5" fill="#4f4f4f" text-anchor="middle">Your Claude Code config is the harness.</text>
+  <text x="780" y="1603" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="700">Hashimoto · HumanLayer</text>
+  <text x="780" y="1623" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="700">Fowler / Boeckeler · Willison</text>
+
+  <text x="500" y="1660" font-size="12.5" fill="#6e6e6e" text-anchor="middle" font-style="italic">Same five core parts on both sides. The split is only over what counts as “the harness.”</text>
+
+  <line x1="80" y1="1700" x2="920" y2="1700" stroke="#e4e4e4" stroke-width="1.5"/>
+
+  <!-- ===== FIELD TEST ===== -->
+  <text x="500" y="1754" font-size="14" letter-spacing="2.5" fill="#a01f3c" text-anchor="middle" font-weight="800">CHECKED AGAINST REAL HARNESSES</text>
+  <text x="500" y="1784" font-size="14" fill="#4f4f4f" text-anchor="middle">The five core parts appeared in every production harness examined; the rings hold up.</text>
+  <text x="500" y="1812" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="700">Codex · Claude Agent SDK · Pi · OpenCode · Stakpak · Goose · Aider · Cline · OpenHands</text>
+  <text x="500" y="1844" font-size="14" fill="#4f4f4f" text-anchor="middle">Looking past the core, three things stood out:</text>
+
+  <text x="140" y="1890" font-size="13.5" fill="#3a3a3a"><tspan font-weight="800" fill="#a01f3c">Non-core parts are optional.</tspan>  Pi omits MCP on purpose, yet is still a complete harness.</text>
+  <text x="140" y="1914" font-size="13.5" fill="#3a3a3a"><tspan font-weight="800" fill="#a01f3c">Model choice splits the field.</tspan>  Aider lets you pick the model; Codex does not.</text>
+  <text x="140" y="1938" font-size="13.5" fill="#3a3a3a"><tspan font-weight="800" fill="#a01f3c">Some parts cut across the rings.</tspan>  Stakpak treats security as a sandbox spanning many parts.</text>
+
+  <line x1="80" y1="1978" x2="920" y2="1978" stroke="#e4e4e4" stroke-width="1.5"/>
+  <text x="500" y="2010" font-size="11.5" fill="#6e6e6e" text-anchor="middle">George Fahmy · georgefa.com · May 2026  ·  sources: OpenAI, Anthropic, LangChain, Hashimoto, Fowler, Schmid, HumanLayer, Willison, MongoDB, Parallel.ai, 3 surveys.</text>
+</svg>
