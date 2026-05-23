@@ -76,9 +76,11 @@ One full tool call from start to finish. Defines a `get_weather` tool, sends a u
 
 Same agent, different view. Draws the same call as an ASCII sequence diagram with three lifelines (User, LLM, `get_weather`) and arrows between them. Useful when you want to see the back-and-forth visually instead of reading log lines.
 
-[How to design better tools?](./2_tools_slides.html)
-
 A 19-slide case study from a year of building tools for a production agent (~178 commits, ~17 tools). Covers what makes a tool name good, how descriptions tend to evolve, what to validate, when to expose a capability as a CLI instead of a tool, and how to design tools that are safe to undo. Ends with 10 lessons.
+
+![How to design better tools?](./2_tools_slides.png)
+
+> Source: [`2_tools_slides.html`](./2_tools_slides.html)
 
 ## 3. Agent Loop
 
