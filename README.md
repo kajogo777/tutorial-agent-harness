@@ -56,7 +56,7 @@ uv run 1_client.py
 
 ## 0. What is an Agent Harness?
 
-The harness is everything around the model. The infographic groups the parts into three rings: the five that show up in every production harness (loop, tools, memory, context management, instructions), the patterns most teams converge on (sandbox, sub-agents, hooks, planning, skills), and the more experimental ideas on the outside (telemetry, evals, self-tuning). It also covers a split worth being aware of: some people mean "the harness is what a vendor ships" (Claude Code is the harness), others mean "the harness is your configuration on top" (your Claude Code config is the harness).
+The harness is something-everything around the model, depending on who you ask. The infographic groups the parts into three rings: the five that show up in every production harness (loop, tools, memory, context management, instructions), the patterns most teams converge on (sandbox, sub-agents, hooks, planning, skills), and the more experimental ideas on the outside (telemetry, evals, self-tuning). It also covers a split worth being aware of: some people mean "the harness is what a vendor ships" (Claude Code is the harness), others mean "the harness is your configuration on top" (your Claude Code config is the harness).
 
 ![Agent Harness Definition](./0_agent_harness_infograph.png)
 
